@@ -1,0 +1,33 @@
+{
+	"title": "mysqlApi",
+	"baseUrl": "/api",
+	"port": 8280,
+	"debug": true,
+  "secret": "1232412421412",
+  "host": "http://localhost",
+	"mail": {
+		"service": "",
+		"auth": {
+			"user": "",
+			"pass": ""
+		}
+	},
+	"redis": {
+		"host": "",
+		"port": ""
+	},
+	"fivebeans": {
+		"host": "",
+		"port": ""
+	},
+	"db": {
+		"main-db": {
+			"engine": "mongo",
+			"connection": {
+				"hosts": ["localhost:27017"],
+				"database": "mysqlApi"
+			},
+			"default": true
+    }
+	}
+}
