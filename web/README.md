@@ -1,2 +1,0 @@
-# mysqlWeb
-### (Powered By Hexin)
